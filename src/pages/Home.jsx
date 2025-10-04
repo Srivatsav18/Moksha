@@ -66,7 +66,6 @@ function Home() {
 
   return (
     <div className={`home-page ${isLoaded ? 'loaded' : ''}`}>
-      {/* === ID ADDED HERE === */}
       <section className="hero-section" id="hero">
         <div className="hero-content">
           <div className="hero-text">
@@ -76,10 +75,7 @@ function Home() {
             <p className="hero-subtitle">
               Welcome to Moksha Dental, where we combine modern technology with a gentle touch to provide exceptional care for your family.
             </p>
-            <div className="hero-actions">
-              <a href="/appointment" className="btn-primary">Book an Appointment</a>
-              <a href="#doctors-section" className="btn-secondary">Meet Our Team</a>
-            </div>
+            {/* The hero-actions div has been removed */}
           </div>
           <div className="hero-visual"></div>
         </div>

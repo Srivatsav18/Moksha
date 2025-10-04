@@ -58,6 +58,12 @@ function DoctorCard({ doctor }) {
         <Link to={`/doctor/${doctorUrlName}`} className="view-profile-btn">
           View Profile <span className="arrow">→</span>
         </Link>
+        <Link 
+          to={`/appointment?doctorId=${doctor.id}&doctorName=${encodeURIComponent(doctor.name)}`} 
+          className="book-now-btn"
+        >
+          Book Now
+        </Link>
       </div>
     </div>
   )

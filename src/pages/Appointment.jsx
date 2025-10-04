@@ -191,6 +191,15 @@ function Appointment() {
               <button type="submit" className="submit-btn" disabled={loading || !formData.time}>
                 {loading ? "Booking..." : "Book Appointment"}
               </button>
+              <button 
+                type="button" 
+                className="cancel-btn mobile-only" 
+                onClick={() => navigate(-1)}
+                disabled={loading}
+              >
+                Cancel
+              </button>
+
             </form>
 
             <aside className="appointment-sidebar">
