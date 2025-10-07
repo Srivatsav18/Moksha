@@ -69,10 +69,9 @@ export const doctors = [
       "Manual Therapy Certification"
     ],
     specializations: [
-      "Joint Replacement",
-      "Back Pain",
-      "Manual Therapy",
-      "Pre/Post Surgery"
+      "Root Canal",
+      "Bridging",
+      "Teeth Whitening"
     ]
   }
 ]
